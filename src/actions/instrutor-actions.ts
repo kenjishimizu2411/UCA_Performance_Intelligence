@@ -18,7 +18,7 @@ const METAS_SHOP: MetasVerticais = {
 export async function salvarAnalista(formData: FormData) {
   // 1. Extrair dados do Formulário HTML
   const nome = formData.get('nome') as string;
-  const turmaId = "id-da-turma-fixo-pro-piloto"; // Vamos deixar fixo por enquanto ou criar depois
+  const turmaId = "5dee7cfa-993c-4d01-b2fd-e927dda6d161"; // Vamos deixar fixo por enquanto ou criar depois
 
   // Dados Técnicos (Excel)
   const metricas: MetricasBrutas = {
