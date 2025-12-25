@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/random
 
 # next.js
 /.next/
